@@ -1,0 +1,25 @@
+/* src/App.css */
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #0d0d0d; /* deep space color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+/* Optional: styling tooltips if using <Html> overlays */
+.tooltip {
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  pointer-events: none;
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
